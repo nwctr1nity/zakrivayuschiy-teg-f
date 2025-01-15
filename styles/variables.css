@@ -1,1 +1,27 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: Inter-Variable;
+    --main-font-weight-normal: 400;
+    --main-font-weight-title: 700;
+    --secondary-font: PressStart2P;
+    --adaptive-inline-size: clamp(375px, 700 / 1440 * 100%, 100%);
+    --main-color: #000;
+    --bg-color: #fff;
+    --button-hover-text-color: #fff;
+    --button-hover-icon-color: #fff;
+    --heart-contour-color: #000;
+    --heart-main-body-color: transparent;
+    --heart-core-color: transparent;
+    --sparks-color: red;
+    --bg-gradient:
+        repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+        repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --stroke-color: #fff;
+}
+
+@media (width <= 375px) {
+    :root {
+        --adaptive-inline-size: 100%;
+    }
+  }
