@@ -104,50 +104,50 @@
   aspect-ratio: 1 / 1;
 }
 
-.card__img-1 {
+.bright-purple {
   filter: brightness(1.06) hue-rotate(66deg) saturate(0.64) ;
   -webkit-filter: brightness(1.06) hue-rotate(66deg) saturate(0.64) ;
   -moz-filter: brightness(1.06) hue-rotate(66deg) saturate(0.64) ;
 }
 
-.card__img-2 {
+.dark-contrast {
   filter: brightness(0.8) contrast(1.48) saturate(0.91) ;
   -webkit-filter: brightness(0.8) contrast(1.48) saturate(0.91) ;
   -moz-filter: brightness(0.8) contrast(1.48) saturate(0.91) ;
 }
 
-.card__img-3 {
+.saturate {
   object-position: left;
   filter: hue-rotate(18deg) saturate(1.87) ;
   -webkit-filter: hue-rotate(18deg) saturate(1.87) ;
   -moz-filter: hue-rotate(18deg) saturate(1.87) ;
 }
 
-.card__img-4 {
+.contrast-sepia {
   filter: contrast(1.87) sepia(0.56) ;
   -webkit-filter: contrast(1.87) sepia(0.56) ;
   -moz-filter: contrast(1.87) sepia(0.56) ;
 }
 
-.card__img-5 {
+.grayscale-bright {
   filter: brightness(1.17) grayscale(0.12) ;
   -webkit-filter: brightness(1.17) grayscale(0.12) ;
   -moz-filter: brightness(1.17) grayscale(0.12) ;
 }
 
-.card__img-6 {
+.grayscale-contrast {
   filter: contrast(1.49) grayscale(0.27) hue-rotate(20deg) sepia(0.46) ;
   -webkit-filter: contrast(1.49) grayscale(0.27) hue-rotate(20deg) sepia(0.46) ;
   -moz-filter: contrast(1.49) grayscale(0.27) hue-rotate(20deg) sepia(0.46) ;
 }
 
-.card__img-7 {
+.dark-scarlet {
   filter: brightness(0.7) hue-rotate(92deg) saturate(0.73);
   -webkit-filter: brightness(0.7) hue-rotate(92deg) saturate(0.73);
   -moz-filter: brightness(0.7) hue-rotate(92deg) saturate(0.73);
 }
 
-.card__img-8 {
+.dark-sepia {
   filter: brightness(0.85) sepia(0.55) ;
   -webkit-filter: brightness(0.85) sepia(0.55) ;
   -moz-filter: brightness(0.85) sepia(0.55) ;
@@ -182,6 +182,7 @@
 }
 
 .card__text {
+  text-shadow: 1px 0 0 purple;
   padding: 25px;
 }
 
