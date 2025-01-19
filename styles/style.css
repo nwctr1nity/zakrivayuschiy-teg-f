@@ -162,6 +162,7 @@
 
 .card__text {
   padding: 25px;
+  font-size: 18px;
 }
 
 .card__text:last-of-type {
@@ -297,6 +298,14 @@
     margin-bottom: 100px;
     inline-size: 306px;
     block-size: 80px;
+  }
+
+  .dialog__save[open] {
+    padding: 30px 39px;
+  }
+
+  .dialog__save-container {
+    gap: 16px;
   }
 
   .floppy {
